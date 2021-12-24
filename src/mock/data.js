@@ -9,57 +9,59 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hi, this is',
+  name: 'Muhamed Aashiq',
+  subtitle: "I'm a Full Stack Developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://buffalo.box.com/s/hazbboosh22hyynmlad0e4nnawqcr9rt', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project.png',
+    title: 'Lamda - Twitter Search Engine',
+    info: 'Search Engine Lamda was built to dissect twitter data to analyze government and public attitudes towards Covid and vaccines. Tweet data from the USA, India, and Mexico have been analyzed for three languages namely English, Hindi, and Spanish. Tweet data was presented in a visually appealing format with various analytics to gain key excerpts about the data retrieved.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.youtube.com/watch?v=-z5HASjF3dQ',
+    repo: 'https://github.com/Aashiq25/twitter-search-engine', // if no repo, the button will not show up
+    btn: 'Demo',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.png',
+    title: 'Real estate PubSub System',
+    info: 'Built a distributed pub-sub model using docker containers for real-time notification using web sockets. Prototype model demonstrates horizontal scaling of the system by distributing the load to independent brokers running on a decentralized network connected to a Database',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://buffalo.box.com/s/93kiv5ylc2c09z57zd50euarcce9y8sz',
+    repo: 'https://github.com/Aashiq25/real_estate_pub_sub', // if no repo, the button will not show up
+    btn: 'Demo',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project.png',
     title: '',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would like to contact? Awesome!',
+  btn: 'Mail me',
+  email: 'muhamedaashiqtce@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +69,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/muhamedaashiq/',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/muhamed-aashiq/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Aashiq25',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
