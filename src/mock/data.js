@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import resume from '../assets/resume.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -20,10 +21,10 @@ export const aboutData = {
   img: 'profile.png',
   paragraphOne:
     "Currently pursuing Master's in Science in Computer Science and Engineering at University at Buffalo, The State University of New York.",
-  paragraphTwo: 'Highly motivated in building scalable and reliable softwate systems',
+  paragraphTwo: 'Highly motivated in building scalable and reliable softwate systems.',
   paragraphThree:
     'There are a lot of things I like to fill my time with. Some of these are the following: yoga, gardening, reading, cycling, and hiking. ',
-  resume: 'https://buffalo.box.com/s/hazbboosh22hyynmlad0e4nnawqcr9rt', // if no resume, the button will not show up
+  resume, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -42,11 +43,21 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.png',
     title: 'Real estate PubSub System',
-    info: 'Built a distributed pub-sub model using docker containers for real-time notification using web sockets. Prototype model demonstrates horizontal scaling of the system by distributing the load to independent brokers running on a decentralized network connected to a Database',
+    info: 'Built a distributed pub-sub model using docker containers for real-time notification using web sockets. Prototype model demonstrates horizontal scaling of the system by distributing the load to independent brokers running on a decentralized network connected to a Database.',
     info2: '',
     url: 'https://buffalo.box.com/s/93kiv5ylc2c09z57zd50euarcce9y8sz',
     repo: 'https://github.com/Aashiq25/real_estate_pub_sub', // if no repo, the button will not show up
     btn: 'Demo',
+  },
+  {
+    id: nanoid(),
+    img: 'spacetagram.png',
+    title: 'Spacetagram',
+    info: "Frontend web application built on React to view and like photos fetched using NASA API (Astronomy Picture of the Day). Includes date range filter, storage of liked posts using browser's local storage, and responsive web layout.",
+    info2: '',
+    url: 'https://aashiq-spacetagram.netlify.app/',
+    repo: 'https://github.com/Aashiq25/spacetagram',
+    btn: 'Live',
   },
 ];
 
