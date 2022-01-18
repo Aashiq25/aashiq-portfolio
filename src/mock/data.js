@@ -21,7 +21,7 @@ export const aboutData = {
   img: 'profile.png',
   paragraphOne:
     "Currently pursuing Master's in Science in Computer Science and Engineering at University at Buffalo, The State University of New York.",
-  paragraphTwo: 'Highly motivated in building scalable and reliable softwate systems.',
+  paragraphTwo: 'Highly motivated in building scalable and reliable software systems.',
   paragraphThree:
     'There are a lot of things I like to fill my time with. Some of these are the following: yoga, gardening, reading, cycling, and hiking. ',
   resume, // if no resume, the button will not show up
