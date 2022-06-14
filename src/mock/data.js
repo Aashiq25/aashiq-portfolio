@@ -18,12 +18,12 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.png',
+  img: 'profile.jpg',
   paragraphOne:
     "Currently pursuing Master's in Science in Computer Science and Engineering at University at Buffalo, The State University of New York.",
   paragraphTwo: 'Highly motivated in building scalable and reliable software systems.',
   paragraphThree:
-    'There are a lot of things I like to fill my time with. Some of these are the following: yoga, gardening, reading, cycling, and hiking. ',
+    'There are a lot of things I like to fill my time with. Some of these are the following: yoga, jogging, cycling, and hiking.',
   resume, // if no resume, the button will not show up
 };
 
@@ -31,13 +31,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'gkc.png',
+    title: 'Good Karma Coin',
+    info: 'Doing charity is always good karma, but your good intentions might not reach the deserved. Charity given to underdeveloped or developing countries is mostly being swindled by some corrupt people in the region.',
+    info2:
+      'This problem can be solved by implementing a GKC, a blockchain technology which ensures that your charity reaches the people who need it.',
+    url: 'https://github.com/UBHSpring2022/ub-hacking-spring-2022-teams-good-karma',
+    btn: 'Source code',
+  },
+  {
+    id: nanoid(),
     img: 'project.png',
     title: 'Lamda - Twitter Search Engine',
     info: 'Search Engine Lamda was built to dissect twitter data to analyze government and public attitudes towards Covid and vaccines. Tweet data from the USA, India, and Mexico have been analyzed for three languages namely English, Hindi, and Spanish. Tweet data was presented in a visually appealing format with various analytics to gain key excerpts about the data retrieved.',
     info2: '',
-    url: 'https://www.youtube.com/watch?v=-z5HASjF3dQ',
+    url: 'https://tw-lamda.netlify.app/',
     repo: 'https://github.com/Aashiq25/twitter-search-engine', // if no repo, the button will not show up
-    btn: 'Demo',
+    btn: 'Live',
   },
   {
     id: nanoid(),
